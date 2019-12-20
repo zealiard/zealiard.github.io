@@ -900,10 +900,38 @@ iframe {
     transition: opacity .25s;
 }
 
+/* added by david */
 .mg-link {
     cursor: zoom-in;
 }
 
 .contact-link {
     font-size: 2.5em;
+}
+
+.profile .tech-icon {
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.profile section {
+    font-family: monospace, sans-serif;
+    margin-bottom: 25px;
+}
+
+.profile section:last-child {
+    margin-bottom: 0;
+}
+
+.profile section > span {
+    font-size: 1.3em;
+}
+
+.profile section > span > span {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.profile h4, .profile h5, .profile h6 {
+    margin: 10px 0 5px 0;
 }

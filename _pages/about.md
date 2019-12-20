@@ -1,14 +1,65 @@
 ---
 layout: page
-title: about
+title: about me
 permalink: /about
 comments: true
 ---
 
 <div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<div class="col-md-8 pr-5 profile">
 
-Coming soon...
+<section class="row">
+	<div class="col-md-6">
+		<img src="{{ site.baseurl }}/media/profile/about-me-1.jpg" />
+	</div>
+	<div class="col-md-6">
+		<h5>직업:</h5>
+		<span>Java, Kotlin, Spring Boot를 주로 사용하는 Backend 개발</span>
+		<h5>취미:</h5>
+		<span>목공예</span>
+		<h5>관심사:</h5>
+		<span>Kubernetes, Apache Kafka, Reactive, React</span>
+	</div>
+</section>
+
+<hr/>
+
+<section>
+	<h4>Languages</h4>
+	<span>
+		<span><i class="fab fa-java"></i> Java,</span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/kotlin.png" /> Kotlin,</span>
+		<span><i class="fab fa-js-square"></i> Javascript</span>
+	</span>
+</section>
+
+<section>
+	<h4>Frameworks</h4>
+	<span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/spring-boot.png" /> Spring,</span>
+		<span><i class="fab fa-react"></i> React(Beginning)</span>
+	</span>
+</section>
+
+<section>
+	<h4>Operations</h4>
+	<span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/kubernetes.png" /> Kubernetes,</span>
+		<span><i class="fab fa-docker"></i> Docker,</span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/ubuntu.png" /> Ubuntu,</span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/centos.png" /> CentOS</span>
+	</span>
+</section>
+
+<section>
+	<h4>Solutions</h4>
+	<span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/apache-kafka.png" /> Apache Kafka,</span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/apache-ignite.png" /> Apache Ignite,</span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/hazelcast.png" /> Hazelcast,</span>
+		<span><img class="tech-icon" src="{{ site.baseurl }}/media/icon/elastic.png" /> ELK Stack</span>
+	</span>
+</section>
 
 </div>
 
