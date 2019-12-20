@@ -1,1 +1,64 @@
-theme: jekyll-theme-cayman
+# Site
+name: "David Kim"
+title: "평범한 개발자의 특별한 레시피"
+description: "평범한 개발자의 특별한 레시피"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ""
+#google_analytics: 'UA-46278016-1'
+disqus: 'blog-purpler-net'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  David:
+    name: David Kim
+    display_name: David
+#    avatar: 'assets/images/avatar.png'
+    gravatar: ae853953ebeca4ac067a7d2b459350fe
+    email: zealiard@gmail.com
+    web: https://blog.purpler.net
+    facebook: https://fb.com/zealiard
+    description: Kubernetes, Kafka, IMDG 등 분산환경에 관심이 많은 Java 개발자.
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
