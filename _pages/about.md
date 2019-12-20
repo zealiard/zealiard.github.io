@@ -18,7 +18,7 @@ comments: true
 		<h5>취미:</h5>
 		<span>목공예</span>
 		<h5>관심사:</h5>
-		<span>Kubernetes, Apache Kafka, Reactive, React</span>
+		<span>Microservices Architecture, Kubernetes, Apache Kafka, Reactive, React</span>
 	</div>
 </section>
 
