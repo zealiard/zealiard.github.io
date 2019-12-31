@@ -4,6 +4,8 @@ title:  RSocket과 gRPC
 author: David
 categories: [Reactive, RSocket, gRPC]
 image: media/title/rsocket-vs-grpc.jpg
+featured: false
+hidden: false
 ---
 RSocket이 소개될 때마다 자주 등장하는 질문 중 하나는 "gRPC와 RSocket은 어떻게 다른가?" 이다.  
 오늘은 RSocket과 gRPC에 대해 간단히.. 아주 간단하게 알아보도록 하겠다.

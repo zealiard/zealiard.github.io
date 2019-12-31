@@ -900,7 +900,9 @@ iframe {
     transition: opacity .25s;
 }
 
-/* added by david */
+/*****************************************************
+ added by David
+ *****************************************************/
 .mg-link {
     cursor: zoom-in;
 }
@@ -934,4 +936,18 @@ iframe {
 
 .profile h4, .profile h5, .profile h6 {
     margin: 10px 0 5px 0;
+}
+
+.article-post h1,
+.article-post h2 {
+    margin-top: 1.5em;
+}
+
+.article-post h2,
+.article-post h3 {
+    margin-top: 1.5em;
+}
+
+.article-post h4 {
+    margin-top: 1.3em;
 }
