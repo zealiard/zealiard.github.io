@@ -4,8 +4,8 @@ title:  Diving into Reactive
 author: David
 categories: [Kotlin, Reactive, WebFlux]
 image: media/title/pivotal-summit-2019-seoul.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 2019년 11월 19일 Pivotal Summit 2019 Seoul 행사가 있었다.  
 마크 헤클러의 **Diving into Reactive** 세션에서 [`RSocket`](https://rsocket.io){: target="_blank" }을 이용한 Spring Reactive Stream을 라이브 코딩으로 구현하는 시간이 있었는데, 매우 흥미롭고 재미있었다. Spring에서 [`RSocket`](https://rsocket.io){: target="_blank" }을 이용해 얼마나 쉽게 Reactive Stream을 구현할 수 있는지 잘 보여주는 세션이었던거 같았지만, 시간 관계상 마무리가 조금 부족했다.
